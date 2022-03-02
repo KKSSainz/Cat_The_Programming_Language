@@ -19,12 +19,20 @@
   **datové typy:**
   - integer
   - boolean
+  - hexadecimal
 
 ***pořadí operátorů:***
-* + - [] {}
+  *, +, -, [], {}
 
 ***validní syntaxe:***
-  not yet
+  - a * t
+  - a + t
+  - t - a
+  - a * [a + t]
+  - a * {a + t}
+  - t + [a * {t + t}]
 
 ***nevalidní syntaxe:***
-  not yet
+  - t + {a * [t + t]}
+  - + a
+  - t + a *
