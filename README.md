@@ -19,8 +19,8 @@
 
   **datové typy:**
   - integer
-  - boolean
   - hexadecimal byte
+  - boolean
 
 ***pořadí operátorů:***
   *, +, -, [], {}
@@ -44,3 +44,4 @@
   - a = 4 * t
   - 0xa
   - 0XA
+  - a - t := t + a
