@@ -4,24 +4,27 @@
 ***obsah jazyka:*** 
               
   **operace:**
-                součet 
-                součin 
-                rozdíl
+  - součet 
+  - součin 
+  - rozdíl
               
   **závorky:**
-                hranaté
-                složené 
+  - hranaté
+  - složené
+  - 
   **operandy:**
-                a
-                t
+  - a
+  - t
+  - 
   **datové typy:**
-                integer
-                boolean
+  - integer
+  - boolean
 
-***pořadí operátorů: * + - [] {}***
+***pořadí operátorů:***
+* + - [] {}
 
 ***validní syntaxe:***
-not yet
+  not yet
 
 ***nevalidní syntaxe:***
-not yet
+  not yet
