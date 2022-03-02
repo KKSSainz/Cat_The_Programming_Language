@@ -12,7 +12,7 @@
   **závorky:**
   - hranaté
   - složené
-  - 
+  
   **operandy:**
   - a
   - t
@@ -23,7 +23,7 @@
   - hexadecimal byte: 0x
 
 ***pořadí operátorů:***
-  *, +, -, [], {}
+  [], {}, *, +, -
 
 ***validní syntaxe:***
   - a * t
