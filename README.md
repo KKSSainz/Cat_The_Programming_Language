@@ -1,22 +1,27 @@
 ## Cat_The_Programming_Language
-#Programovací jazyk C@ 🐱
+~Programovací jazyk C@ 🐱
 
-obsah jazyka: operace:
+***obsah jazyka:*** 
+              
+  **operace:**
                 součet 
                 součin 
                 rozdíl
-              závorky:
+              
+  **závorky:**
                 hranaté
                 složené 
-              operandy:
+  **operandy:**
                 a
                 t
-              datové typy:
+  **datové typy:**
                 integer
                 boolean
 
-pořadí operátorů: * + - [] {}
+***pořadí operátorů: * + - [] {}***
 
-validní syntaxe: not yet
+***validní syntaxe:***
+not yet
 
-nevalidní syntaxe: not yet
+***nevalidní syntaxe:***
+not yet
