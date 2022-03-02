@@ -18,9 +18,9 @@
   - t
 
   **datové typy:**
-  - integer
-  - hexadecimal byte
-  - boolean
+  - int16: 0 - 65 536
+  - binární byte: 0b
+  - hexadecimal byte: 0x
 
 ***pořadí operátorů:***
   *, +, -, [], {}
@@ -34,14 +34,21 @@
   - t + [a * {t + t}]
   - 5 + a
   - 0xA
+  - 0b01
+  - 0b10010101
   - a := t + 0x11
 
 ***nevalidní syntaxe:***
   - t + {a * [t + t]}
   - + a
   - t + a *
+  - t *+ a
+  - t ++ a
   - a := 45 * b
   - a = 4 * t
   - 0xa
   - 0XA
+  - 0B1
+  - b11
+  - 0b1001010111
   - a - t := t + a
