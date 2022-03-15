@@ -3,6 +3,7 @@
 
 ***obsah jazyka:*** 
   - přiřazení :=
+  - funkce
               
   **operace:**
   - součet 
