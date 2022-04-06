@@ -10,14 +10,15 @@ expression      : expression OPERATORS expression
                 ;
 
 NLINE           : [\r\n]+;
+WS              : [ \t]+ -> skip ;
 OPERATORS       : ('*') | ('+') | ('-');
 NUMBERS         : INT | HEX | BIN;
 
 VAR             : 'a' | 't';
 
+ZERO            : '0';
 INT             : ZERO | (NONZERODIGIT DIGIT+);
 DIGIT           : ZERO | NONZERODIGIT;
-ZERO            : '0';
 NONZERODIGIT    : '1'|'2'|'3'|'4'|'5'|'6'|'7'|'8'|'9';
 
 HEX             : '0x' (HEXZERO | HEXNUM+);
