@@ -1,8 +1,0 @@
-com\cat\antlr\cat\grammarCatBaseVisitor.class
-com\cat\antlr\cat\grammarCatParser$ExpressionContext.class
-com\cat\antlr\cat\grammarCatParser.class
-com\cat\antlr\cat\grammarCatParser$RootContext.class
-com\cat\antlr\cat\grammarCatVisitor.class
-com\cat\antlr\cat\grammarCatLexer.class
-com\cat\antlr\cat\Cat.class
-com\cat\antlr\cat\grammarCatVisitorImpl.class

@@ -10,6 +10,7 @@ expression      : '{' expression '}'    #bracketts
                 | VAR ':=' NUMBERS ';'  #com
                 | VAR '=' FUNCID '(' (PARAMS)? ');' #func
 //                | LEAF   #leaf
+                | ERROR    #err
                 ;
 
 NLINE           : [\r\n]+;
@@ -20,6 +21,7 @@ NUMBERS         : INT | HEX | BIN;
 //COMFUNC         : VAR (FUNC | COMMAND) ';';
 VAR             : 'a' | 't';
 //LEAF            : NUMBERS;// | VAR;
+ERROR           : '0' (ALPH | HEXNONZERO | HEXZERO)+;
 
 ZERO            : '0';
 NONZERODIGIT    : '1'|'2'|'3'|'4'|'5'|'6'|'7'|'8'|'9';
